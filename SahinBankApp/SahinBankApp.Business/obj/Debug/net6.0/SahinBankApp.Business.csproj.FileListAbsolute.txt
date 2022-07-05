@@ -1,0 +1,17 @@
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/bin/Debug/net6.0/SahinBankApp.Business.deps.json
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/bin/Debug/net6.0/SahinBankApp.Business.dll
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/bin/Debug/net6.0/SahinBankApp.Business.pdb
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/bin/Debug/net6.0/SahinBankApp.Data.dll
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/bin/Debug/net6.0/SahinBankApp.Entity.dll
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/bin/Debug/net6.0/SahinBankApp.Entity.pdb
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/bin/Debug/net6.0/SahinBankApp.Data.pdb
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/obj/Debug/net6.0/SahinBankApp.Business.csproj.AssemblyReference.cache
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/obj/Debug/net6.0/SahinBankApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/obj/Debug/net6.0/SahinBankApp.Business.AssemblyInfoInputs.cache
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/obj/Debug/net6.0/SahinBankApp.Business.AssemblyInfo.cs
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/obj/Debug/net6.0/SahinBankApp.Business.csproj.CoreCompileInputs.cache
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/obj/Debug/net6.0/SahinBankApp.Business.csproj.CopyComplete
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/obj/Debug/net6.0/SahinBankApp.Business.dll
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/obj/Debug/net6.0/refint/SahinBankApp.Business.dll
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/obj/Debug/net6.0/SahinBankApp.Business.pdb
+/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/obj/Debug/net6.0/ref/SahinBankApp.Business.dll

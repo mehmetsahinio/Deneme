@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{8108EA22-F885-49E3-AB15-2D50920F1E03}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SahinBankApp.WebUI/Program.cs">
+    <Files>
+      <File FileName="SahinBankApp.WebUI/Controllers/ActionMove.cs" Line="23" Column="53" />
+      <File FileName="SahinBankApp.WebUI/Views/ActionMove/ActionMoveList.cshtml" Line="19" Column="8" />
+      <File FileName="SahinBankApp.WebUI/Views/_ViewImports.cshtml" Line="3" Column="27" />
+      <File FileName="SahinBankApp.Entity/ActionMove.cs" Line="13" Column="37" />
+      <File FileName="SahinBankApp.WebUI/Program.cs" Line="11" Column="44" />
+      <File FileName="SahinBankApp.Data/Concrete/EFCore/EfCoreGenerictRepository.cs" Line="43" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SahinBankApp" expanded="True" selected="True">
+            <Node name="SahinBankApp.Data" expanded="True">
+              <Node name="Concrete" expanded="True">
+                <Node name="EFCore" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="SahinBankApp.Entity" expanded="True" />
+            <Node name="SahinBankApp.WebUI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="ActionMove" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SahinBankApp.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
