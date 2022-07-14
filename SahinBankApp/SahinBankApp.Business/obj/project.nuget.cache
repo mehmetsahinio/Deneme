@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MtCgblzLa5tVOBFD6CFZt+7WLPxTNWcPZRj3pZIyOXkjA7Iad7+J18ae1hWGQ50Hd5vA08uL2cFcz4vtvQAF4Q==",
+  "dgSpecHash": "fiPc7OV/rWFVxsu3DYJbV2W3HVvcq6HWHP/sdPs+xZJuYGxGb5lUY+9ITKz0MlLa9hYV0Vf5Lxt3hKKUKqPwxQ==",
   "success": true,
-  "projectFilePath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/SahinBankApp.Business.csproj",
+  "projectFilePath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Business/SahinBankApp.Business.csproj",
   "expectedPackageFiles": [
     "/Users/mehmetsahin/.nuget/packages/microsoft.data.sqlite.core/6.0.6/microsoft.data.sqlite.core.6.0.6.nupkg.sha512",
     "/Users/mehmetsahin/.nuget/packages/microsoft.entityframeworkcore/6.0.6/microsoft.entityframeworkcore.6.0.6.nupkg.sha512",

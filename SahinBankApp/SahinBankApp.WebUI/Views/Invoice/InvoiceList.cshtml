@@ -1,0 +1,48 @@
+﻿@model List<Invoice>
+
+<h6 class="display-4">Invoice List</h6>
+<hr />
+<a class="btn btn-sm btn-success" asp-controller="Invoice" asp-action="InvoiceCreate">Create</a>
+<br /><br />
+      <table class="table table-sm table-dark">
+          <tr>
+              <td>InvoiceId</td>
+              <td>InvoiceNumber</td>
+              <td>InvoiceName</td>
+              <td>InvoiceDueDate</td>
+              <td>InvoiceDate</td>
+              <td>Price</td>
+              <td>InvoiceOwner</td>
+              <td>IsPaid</td>
+              <td></td>
+          </tr>
+          @if (Model.Count() == 0)
+          {
+              <tr>
+                  <td colspan="8">
+                      Hiç birAction bulunamadı
+                  </td>
+              </tr>
+          }
+          else
+          {
+              @foreach (var invoice in Model)
+              {
+                  <tr>
+                      <td>@invoice.InvoiceId</td>
+                      <td>@invoice.InvoiceNumber</td>
+                      <td>@invoice.InvoiceName</td>
+                      <td>@invoice.InvoiceDueDate</td>
+                      <td>@invoice.InvoiceDate</td>
+                      <td>@invoice.Price</td>
+                      <td>@invoice.InvoiceOwner</td>
+                      <td>@invoice.IsPaid</td>
+
+                      <td>
+                          <a class="btn btn-sm btn-warning" asp-controller="Invoice" asp-action="InvoiceEdit" asp-route-id="@invoice.InvoiceId">Edit</a>
+                          <a class="btn btn-sm btn-danger" asp-controller="Invoice" asp-action="InvoiceDelete" asp-route-id="@invoice.InvoiceId">Delete</a>
+                      </td>
+                  </tr>
+              }
+          }
+      </table>

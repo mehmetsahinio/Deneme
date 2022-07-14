@@ -1,0 +1,40 @@
+﻿@model List<ActionType>
+<h6 class="display-4">ActionType List</h6>
+<hr />
+
+<a class="btn btn-sm btn-success" asp-controller="ActionType" asp-action="ActionTypeCreate">Create</a>
+<br />
+<br />
+<table class="table table-sm table-dark ">
+    <tr>
+        <td> Id</td>
+        <td>Action Type Name</td>
+        <td>Action Type Description</td>
+        <td></td>
+    </tr>
+    @if (Model.Count() == 0)
+    {
+        <tr>
+            <td colspan="6">
+                Hiç birAction bulunamadı
+            </td>
+        </tr>
+    }
+    else
+    {
+        @foreach (var ActionType in Model)
+        {
+            <tr>
+                <td>@ActionType.ActionTypeId</td>
+                <td>@ActionType.ActionTypeName</td>
+                <td>@ActionType.ActionTypeDescription</td>
+
+                <td>
+                    <a class="btn btn-sm btn-warning" asp-controller="ActionType" asp-action="ActionTypeEdit" asp-route-id="@ActionType.ActionTypeId">Edit</a>
+                    <a class="btn btn-sm btn-danger" asp-controller="ActionType" asp-action="ActionTypeDelete" asp-route-id="@ActionType.ActionTypeId">Delete</a>
+                </td>
+            </tr>
+        }
+    }
+</table>
+

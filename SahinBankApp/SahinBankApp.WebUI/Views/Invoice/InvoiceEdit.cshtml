@@ -1,0 +1,60 @@
+﻿@model InvoiceModel
+
+<h5 class="display-4">Edit Invoice</h5>
+<hr />
+<form asp-controller="Invoice" asp-action="InvoiceEdit" method="post">
+    <div class="row">
+        <div class="col-md-8">
+            
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">InvoiceNumber</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="InvoiceNumber" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">InvoiceName</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="InvoiceName" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">InvoiceDueDate</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="InvoiceDueDate" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">InvoiceDate</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="InvoiceDate" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">Price</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="Price" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">InvoiceOwner</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="InvoiceOwner" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">IsPaid</label>
+                <div class="col-sm-9">
+                    <input type="checkbox" asp-for="IsPaid" />
+                </div>
+            </div>
+            <div class="form-group row mb-2">
+                <input type="hidden" name="invoiceId" value="@Model.InvoiceId" />
+                <div class="col-sm-9">
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,62 @@
+﻿@model ActionMoveModel
+
+<h1 class="display-4">Create Action Move </h1>
+<br />
+<form asp-controller="ActionMove" asp-action="ActionMoveCreate" method="post">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group row mb-2">
+                <label class="col-sm-3 col-form-label">UserId</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="UserId" class="form-control" />
+                </div>
+            </div>
+
+
+            <div class="form-group row mb-2">
+                <label class="col-sm-3 col-form-label">ActionType</label>
+                <div class="col-sm-9">
+                    <select asp-items="ViewBag.ActionType" asp-for="ActionTypeId" class="form-control"></select>
+                </div>
+            </div>
+
+            <div class="form-group row mb-2">
+                <label class="col-sm-3 col-form-label">Date</label>
+                <div class="col-sm-9">
+                    <input type="datetime" asp-for="Date" class="form-control" />
+                </div>
+            </div>
+
+
+            <div class="form-group row mb-2">
+                <label class="col-sm-3 col-form-label">ActionAmount</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="ActionAmount" class="form-control" />
+                </div>
+            </div>
+
+
+            <div class="form-group row mb-2">
+                <label class="col-sm-3 col-form-label">ActionDeduction</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="ActionDeduction" class="form-control" />
+                </div>
+            </div>
+
+
+            <div class="form-group row mb-2">
+                <label class="col-sm-3 col-form-label">InvoiceNumber</label>
+                <div class="col-sm-9">
+                    <select asp-items="ViewBag.Invoice" asp-for="InvoiceNumber" class="form-control"></select>
+                </div>
+            </div>
+
+            
+            <div class="form-group row mb-2">
+                <div class="col-sm-9">
+                    <button type="submit" class="btn btn-success">Save Action Type</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

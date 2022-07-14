@@ -33,7 +33,7 @@ namespace SahinBankApp.Data.Concrete.EFCore
         }
 
         public TEntity GetById(int id)
-        {
+        {   
             using (var context = new TContext())
             {
                 return context.Set<TEntity>().Find(id);

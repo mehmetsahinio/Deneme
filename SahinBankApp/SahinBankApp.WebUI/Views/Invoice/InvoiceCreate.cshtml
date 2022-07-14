@@ -1,0 +1,63 @@
+﻿@model InvoiceModel
+
+<h1 class="display-4">Create Invoice</h1>
+<hr />
+<form asp-controller="Invoice" asp-action="InvoiceCreate" method="post">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group row mb-2">
+                <label class="col-sm-3 col-form-label">Invoice Number :</label>
+                <div class="col-sm-3">
+                    <input type="text" asp-for="InvoiceNumber" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group row mb-2">
+                <label class="col-sm-3 col-form-label">Invoice Name :</label>
+                <div class="col-sm-3">
+                    <input type="text" asp-for="InvoiceName" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group row mb-2">
+                <label class="col-sm-3 col-form-label">Invoice DueDate :</label>
+                <div class="col-sm-9">
+                    <input type="datetime" asp-for="InvoiceDueDate" />
+                </div>
+            </div>
+            <div class="form-group row mb-2">
+                <label class="col-sm-3 col-form-label">Invoice Date :</label>
+                <div class="col-sm-9">
+                    <input type="datetime" asp-for="InvoiceDate" />
+                </div>
+            </div>
+
+            <div class="form-group row mb-2">
+                <label class="col-sm-3 col-form-label">Price :</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="Price" />
+                </div>
+            </div>
+
+            <div class="form-group row mb-2">
+                <label class="col-sm-3 col-form-label">InvoiceOwner :</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="InvoiceOwner" />
+                </div>
+            </div>
+
+            <div class="form-group row mb-3">
+                <label class="col-sm-3 col-form-label">IsPaid :</label>
+                <div class="col-sm-9">
+                    <input type="checkbox" asp-for="IsPaid" />
+                </div>
+            </div>
+
+            <div class="form-group row mb-2">
+                <div class="col-sm-9">
+                    <button type="submit" class="btn btn-success">Save Action Type</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

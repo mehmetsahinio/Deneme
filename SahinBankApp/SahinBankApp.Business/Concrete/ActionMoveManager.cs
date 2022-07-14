@@ -1,41 +1,49 @@
 ﻿using System;
 using SahinBankApp.Business.Abstract;
+using SahinBankApp.Data.Abstract;
 using SahinBankApp.Entity;
 
 namespace SahinBankApp.Business.Concrete
 {
     public class ActionMoveManager : IActionMoveService
     {
-        private IActionMoveService _actionMoveService;
+        private IActionMoveRepository _actionMoveRepository;
 
-        public ActionMoveManager(IActionMoveService actionMoveService)
+        public ActionMoveManager(IActionMoveRepository actionMoveRepository)
         {
-            _actionMoveService = actionMoveService;
+            _actionMoveRepository = actionMoveRepository;
         }
 
         public void Create(ActionMove entity)
         {
-            _actionMoveService.Create(entity);
+            _actionMoveRepository.Create(entity);
         }
 
         public void Delete(ActionMove entity)
         {
-            _actionMoveService.Delete(entity);
+            _actionMoveRepository.Delete(entity);
+        }
+
+        public List<ActionMove> GetActionMoves()
+        {
+            return _actionMoveRepository.GetActionMoves();
         }
 
         public List<ActionMove> GetAll()
         {
-            return _actionMoveService.GetAll();
+            return _actionMoveRepository.GetAll();
         }
 
         public ActionMove GetById(int id)
         {
-            return _actionMoveService.GetById(id);
+            return _actionMoveRepository.GetById(id);
         }
+
+       
 
         public void Update(ActionMove entity)
         {
-            _actionMoveService.Update(entity);
+            _actionMoveRepository.Update(entity);
         }
     }
 }

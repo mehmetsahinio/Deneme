@@ -23,6 +23,8 @@
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="Views\ActionMove\" />
+    <None Remove="Views\ActionType\" />
+    <None Remove="Views\Invoice\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.6" />
@@ -38,5 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ActionMove\" />
+    <Folder Include="Views\ActionType\" />
+    <Folder Include="Views\Invoice\" />
   </ItemGroup>
 </Project>

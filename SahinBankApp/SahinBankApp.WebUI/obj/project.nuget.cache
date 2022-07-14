@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yGwG0gpv+5l+oIWmcbH5kO1fwVVr4FS+xRtXSI6Tfp1HdlA6YfEFUini0CyjlGzCABjKThLk+5uEkR3ngP9rCw==",
+  "dgSpecHash": "b+bZjehDkUUHwZ5V5w8VIUdKSukLDsOeth7IEMaZmd9Rpx9/duf56EUFoctMVx3PxmnskxBtSVVOmh2mu2B2mQ==",
   "success": true,
-  "projectFilePath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.WebUI/SahinBankApp.WebUI.csproj",
+  "projectFilePath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.WebUI/SahinBankApp.WebUI.csproj",
   "expectedPackageFiles": [
     "/Users/mehmetsahin/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/mehmetsahin/.nuget/packages/microsoft.data.sqlite.core/6.0.6/microsoft.data.sqlite.core.6.0.6.nupkg.sha512",

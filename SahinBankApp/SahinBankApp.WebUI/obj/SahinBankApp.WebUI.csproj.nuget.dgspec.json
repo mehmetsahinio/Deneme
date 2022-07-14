@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.WebUI/SahinBankApp.WebUI.csproj": {}
+    "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.WebUI/SahinBankApp.WebUI.csproj": {}
   },
   "projects": {
-    "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/SahinBankApp.Business.csproj": {
+    "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Business/SahinBankApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/SahinBankApp.Business.csproj",
+        "projectUniqueName": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Business/SahinBankApp.Business.csproj",
         "projectName": "SahinBankApp.Business",
-        "projectPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/SahinBankApp.Business.csproj",
+        "projectPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Business/SahinBankApp.Business.csproj",
         "packagesPath": "/Users/mehmetsahin/.nuget/packages/",
-        "outputPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/obj/",
+        "outputPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Business/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mehmetsahin/.nuget/NuGet/NuGet.Config"
+          "/Users/mehmetsahin/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj": {
-                "projectPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj"
+              "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj": {
+                "projectPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj"
               },
-              "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj": {
-                "projectPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj"
+              "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj": {
+                "projectPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj"
               }
             }
           }
@@ -59,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj": {
+    "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj",
+        "projectUniqueName": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj",
         "projectName": "SahinBankApp.Data",
-        "projectPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj",
+        "projectPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj",
         "packagesPath": "/Users/mehmetsahin/.nuget/packages/",
-        "outputPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Data/obj/",
+        "outputPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mehmetsahin/.nuget/NuGet/NuGet.Config"
+          "/Users/mehmetsahin/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -85,8 +85,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj": {
-                "projectPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj"
+              "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj": {
+                "projectPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj"
               }
             }
           }
@@ -137,21 +137,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj": {
+    "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj",
+        "projectUniqueName": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj",
         "projectName": "SahinBankApp.Entity",
-        "projectPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj",
+        "projectPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj",
         "packagesPath": "/Users/mehmetsahin/.nuget/packages/",
-        "outputPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/obj/",
+        "outputPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mehmetsahin/.nuget/NuGet/NuGet.Config"
+          "/Users/mehmetsahin/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -189,21 +189,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.WebUI/SahinBankApp.WebUI.csproj": {
+    "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.WebUI/SahinBankApp.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.WebUI/SahinBankApp.WebUI.csproj",
+        "projectUniqueName": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.WebUI/SahinBankApp.WebUI.csproj",
         "projectName": "SahinBankApp.WebUI",
-        "projectPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.WebUI/SahinBankApp.WebUI.csproj",
+        "projectPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.WebUI/SahinBankApp.WebUI.csproj",
         "packagesPath": "/Users/mehmetsahin/.nuget/packages/",
-        "outputPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.WebUI/obj/",
+        "outputPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.WebUI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mehmetsahin/.nuget/NuGet/NuGet.Config"
+          "/Users/mehmetsahin/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -215,14 +215,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/SahinBankApp.Business.csproj": {
-                "projectPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Business/SahinBankApp.Business.csproj"
+              "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Business/SahinBankApp.Business.csproj": {
+                "projectPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Business/SahinBankApp.Business.csproj"
               },
-              "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj": {
-                "projectPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj"
+              "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj": {
+                "projectPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Data/SahinBankApp.Data.csproj"
               },
-              "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj": {
-                "projectPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj"
+              "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj": {
+                "projectPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj"
               }
             }
           }
@@ -276,7 +276,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
         }
       }
     }

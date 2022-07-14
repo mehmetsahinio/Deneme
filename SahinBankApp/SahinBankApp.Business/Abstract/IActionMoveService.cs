@@ -5,7 +5,9 @@ namespace SahinBankApp.Business.Abstract
 {
 	public interface IActionMoveService:IRepository<ActionMove>
 	{
-		
+		List<ActionMove> GetActionMoves();
+
+
 	}
 }
 

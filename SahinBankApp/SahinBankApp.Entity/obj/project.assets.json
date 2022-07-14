@@ -13,14 +13,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj",
+      "projectUniqueName": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj",
       "projectName": "SahinBankApp.Entity",
-      "projectPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj",
+      "projectPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/SahinBankApp.Entity.csproj",
       "packagesPath": "/Users/mehmetsahin/.nuget/packages/",
-      "outputPath": "/Users/mehmetsahin/Projects/SahinBankApp/SahinBankApp.Entity/obj/",
+      "outputPath": "/Users/mehmetsahin/Desktop/Deneme/SahinBankApp/SahinBankApp.Entity/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/mehmetsahin/.nuget/NuGet/NuGet.Config"
+        "/Users/mehmetsahin/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
       }
     }
   }

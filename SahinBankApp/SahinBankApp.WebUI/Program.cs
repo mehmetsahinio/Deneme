@@ -7,13 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-var app = builder.Build();
 builder.Services.AddScoped<IActionMoveRepository,EfCoreActionMoveRepository>();
 builder.Services.AddScoped<IActionTypeRepository,EfCoreActionTypeRepository>();
 builder.Services.AddScoped<IInvoiceRepository, EfCoreInvoiceRepository>();
 builder.Services.AddScoped<IActionTypeService, ActionTypeManager>();
 builder.Services.AddScoped<IInvoiceService, InvoiceManager>();
 builder.Services.AddScoped<IActionMoveService, ActionMoveManager>();
+var app = builder.Build();
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
